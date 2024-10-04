@@ -1,0 +1,110 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fffbf0; /* Soft, light background */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 20px;
+    background: white; /* Keep white for readability */
+    border-radius: 12px; /* Slightly more rounded corners */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+}
+
+h1 {
+    color: #ff6f61; /* Soft coral color */
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Comic Sans MS', cursive, sans-serif; /* Playful font */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+    border: 1px solid #f2a365; /* Light orange border */
+    border-radius: 12px;
+    padding: 20px;
+    background: #ffe4e1; /* Light pink background */
+    gap: 10px; /* Space between form elements */
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #ff69b4; /* Hot pink label color */
+}
+
+input, textarea, select {
+    padding: 10px;
+    margin-bottom: 0; /* Remove margin-bottom for better alignment */
+    border: 0px solid #ffc0cb; /* Light pink border */
+    border-radius: 10px; /* More rounded edges */
+    font-size: 16px;
+    transition: border-color 0.3s; /* Transition for focused state */
+}
+
+input:focus, textarea:focus, select:focus {
+    border-color: #ff69b4; /* Change border color on focus */
+    outline: none; /* Remove outline */
+}
+
+button {
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #ff85e1; /* Light pink button color */
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+    background-color: #ff4d94; /* Darker pink on hover */
+    transform: scale(1.05);
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px; /* Reduced padding for smaller boxes */
+    margin-bottom: 10px;
+    border: 1px solid #ffb6c1; /* Light pink border for list items */
+    border-radius: 8px; /* Rounded edges */
+    background: #fff0f5; /* Lavender blush background */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: transform 0.3s, box-shadow 0.3s; /* Transition for hover effect */
+}
+
+li:hover {
+    transform: translateY(-5px); /* Lift effect on hover */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); /* Add shadow on hover */
+}
+
+.status {
+    font-weight: bold;
+    color: #000; 
+}
+
+.strikethrough {
+    text-decoration: line-through; 
+    color: #808080; /* Gray for strikethrough */
+}
+
+li button {
+    margin-left: 10px;
+    background-color: #ff7f50; /* Coral color for list buttons */
+}
+
+li button:hover {
+    background-color: #ff6347; /* Tomato color on hover */
+}
